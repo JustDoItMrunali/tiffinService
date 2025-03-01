@@ -1,0 +1,90 @@
+body {
+    color: purple; /* Change text color to purple */
+}
+
+
+.navbar-nav .nav-link,
+.navbar-brand,
+.navbar-toggler-icon {
+    color: purple !important; /* Ensure navbar links and icon are purple */
+    
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: purple !important; /* Ensure active link is also purple */
+    position: relative;
+}
+
+.dropdown-menu .dropdown-item {
+    color: purple !important; /* Make dropdown items purple */
+}
+
+.form-control {
+    color: purple; /* Make input text purple */
+    border-color: purple; /* Make input border purple */
+}
+
+.navbar-toggler {
+    border: 2px solid purple !important; /* Black border */
+}
+
+.navbar-toggler-icon {
+    background-color: purple; /* Purple color */
+    -webkit-mask-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.btn-outline-purple {
+    color: purple;
+    border: 2px solid purple;
+    background-color: white;
+}
+
+.btn-outline-purple:hover {
+    color: white;
+    background-color: purple;
+    border: 2px solid purple;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, a, .navbar-nav .nav-link, .dropdown-menu .dropdown-item {
+    color: purple !important;
+}
+
+/* Style for buttons */
+.btn-outline-purple {
+    color: purple !important;
+    border: 2px solid purple !important;
+    background-color: white !important;
+}
+
+.btn-outline-purple:hover, .btn-primary {
+    color: white !important;
+    background-color: purple !important;
+    border: 2px solid purple !important;
+}
+
+.btn-primary:hover {
+    background-color: white !important;
+    color: purple !important;
+    border: 2px solid purple !important;
+}
+
+
+.custom-heading {
+    font-family: 'Ubuntu', sans-serif !important; /* Use the imported Google Font */
+    color: purple !important; /* Change font color to purple */
+    font-size: 50px;
+}
+
+.custom-lead{
+    color: black !important;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.nav-hover :hover{
+    transition: 2s;
+    text-decoration: underline;
+}
+
